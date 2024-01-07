@@ -47,17 +47,17 @@
 .banner img {
   width: 100%;
 }
-.banner .banner-disc {
+.banner .banner-desc {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /*I searched it from google */
 }
-.banner-disc h3 {
+.banner-desc h3 {
   font-size: 32px;
   font-weight: 400;
 }
-.banner-disc h1 {
+.banner-desc h1 {
   font-size: 50px;
   font-weight: 900;
   line-height: 95px;
@@ -92,3 +92,39 @@
   width: 100%;
 }
 /* discount section ends */
+
+/* midnight-party section starts  */
+.mid-party {
+  position: relative;
+  text-align: center;
+  color: white;
+  border-radius: 16px;
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.mid-party img {
+  width: 100%;
+}
+.mid-party .mid-desc {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%); /*I searched it from google */
+}
+.mid-party .mid-desc h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.mid-party .mid-desc p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 32px;
+}
+.mid-party .mid-desc h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 32px;
+}
+/* midnight-party section ends */
