@@ -63,3 +63,32 @@
   line-height: 95px;
 }
 /* header styles ends  */
+
+/* discount section starts  */
+.discount-section {
+  width: 60%;
+  margin: 120px auto;
+}
+.discount-section .discount-details {
+  text-align: center;
+}
+.discount-section .discount-details h1 {
+  font-size: 88px;
+  font-weight: 700;
+}
+.discount-section .discount-details p {
+  font-size: 24px;
+
+  font-weight: 500;
+}
+.discount-section .discount-details h3 {
+  font-size: 48px;
+  font-weight: 700px;
+}
+.discount-section .new-year-image {
+  width: 100%;
+}
+.discount-section .new-year-image img {
+  width: 100%;
+}
+/* discount section ends */
