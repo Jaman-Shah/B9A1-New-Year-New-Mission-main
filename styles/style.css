@@ -10,7 +10,8 @@
   box-sizing: border-box;
 }
 
-.red-text {
+.red-text,
+.event-section span {
   color: #ff0000;
 }
 .white-text {
@@ -128,3 +129,35 @@
   margin-left: 32px;
 }
 /* midnight-party section ends */
+
+/* event section starts  */
+.event-section {
+  text-align: center;
+  padding: 100px 0;
+  border-radius: 16px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.event-section h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.event-section button {
+  background-color: red;
+  color: white;
+  display: inline-flex;
+  font-size: 20px;
+  font-weight: 700px;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+/* event section ends */
