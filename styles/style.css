@@ -112,6 +112,7 @@
 }
 .mid-party img {
   width: 100%;
+  opacity: 0.8;
 }
 .mid-party .mid-desc {
   text-align: left;
