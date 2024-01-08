@@ -243,3 +243,29 @@
 }
 
 /* holiday sales area styles  ends */
+
+/* gift section styles starts  */
+.gift-section .gift-details {
+  text-align: left;
+}
+.gift-section .gift-details h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.gift-section .gift-details h1 {
+  font-size: 48px;
+
+  font-weight: 900;
+}
+
+.gift-section .gift-cards .part-1,
+.gift-section .gift-cards .part-2 {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.gift-section .gift-cards img {
+  width: 100%;
+}
+/* gift section styles ends */
