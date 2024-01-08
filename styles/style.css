@@ -269,3 +269,38 @@
   width: 100%;
 }
 /* gift section styles ends */
+
+/* subscribe section starts  */
+
+.sub-sec {
+  text-align: center;
+  padding: 80px 212px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.sub-sec .input-area {
+  height: 60px;
+  width: 450px;
+  margin: 48px auto;
+  display: flex;
+}
+.sub-sec .input-area input {
+  height: 100%;
+  width: 70%;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+  padding: 25px 0px 25px 30px;
+}
+
+.sub-sec .input-area button {
+  height: 100%;
+  width: 30%;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+/* subscribe section ends */
