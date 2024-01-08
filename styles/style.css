@@ -23,6 +23,9 @@
 .merriweather-font {
   font-family: Merriweather;
 }
+
+/* this is the common style of p tag which is used in multiple area  */
+
 .common-para {
   color: #000000;
   font-family: Inter;
@@ -31,6 +34,8 @@
   font-weight: 400;
   line-height: 32px;
 }
+
+/* this is the common margin and width which is used  in every section  */
 .common-margin-width {
   width: 80%;
   margin: 120px auto;
@@ -47,6 +52,7 @@
 }
 .banner img {
   width: 100%;
+  opacity: 0.8;
 }
 .banner .banner-desc {
   position: absolute;
@@ -76,15 +82,17 @@
 .discount-section .discount-details h1 {
   font-size: 88px;
   font-weight: 700;
+  margin-bottom: 48px;
 }
 .discount-section .discount-details p {
   font-size: 24px;
-
   font-weight: 500;
+  margin-bottom: 16px;
 }
 .discount-section .discount-details h3 {
   font-size: 48px;
   font-weight: 700px;
+  margin-bottom: 48px;
 }
 .discount-section .new-year-image {
   width: 100%;
@@ -100,7 +108,7 @@
   text-align: center;
   color: white;
   border-radius: 16px;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .mid-party img {
   width: 100%;
@@ -186,8 +194,7 @@
   border-radius: 50%;
   border: 20px solid red;
 }
-.upcoming-container .center img {
-}
+
 .upcoming-container .right {
   margin-left: 118px;
   padding-top: 112px;
@@ -218,16 +225,21 @@
 }
 
 .holiday-sales .middle-images {
-  background-image: url("../images/Rectangle\ 1.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-}
-.holiday-sales .middle-images img {
-  margin-left: 50%;
-  top: 50%;
-  right: 50%;
   margin-top: 68px;
+  display: flex;
+  justify-content: end;
+}
+.holiday-sales .middle-images .right-side {
+  height: 400px;
+  width: 400px;
+  background-image: url("../images/Rectangle 1.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.holiday-sales .middle-images .right-side .round {
+  position: absolute;
+  top: 40px;
+  left: -180px;
 }
 .holiday-sales .bottom-image {
   position: relative;
@@ -322,7 +334,8 @@ footer {
 .owner-address house {
   margin-top: 120px;
 }
-
+.owner-address .contact img {
+}
 .social-icons {
   display: flex;
   justify-content: center;
