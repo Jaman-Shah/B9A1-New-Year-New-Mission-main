@@ -244,7 +244,7 @@
 .holiday-sales .middle-images .right-side .round {
   position: absolute;
   top: 40px;
-  left: -180px;
+  left: -150px;
 }
 .holiday-sales .bottom-image {
   position: relative;
@@ -257,7 +257,7 @@
 .holiday-sales .bottom-image img {
   position: absolute;
   top: -400px;
-  left: 0px;
+  left: -100px;
 }
 
 /* holiday sales area styles  ends */
