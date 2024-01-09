@@ -37,7 +37,7 @@
 
 /* this is the common margin and width which is used  in every section  */
 .common-margin-width {
-  width: 80%;
+  width: 1090px; /* 80% of my current display size(Laptop) 1366 px of */
   margin: 120px auto;
 }
 /* common styles ends  */
@@ -73,8 +73,12 @@
 
 /* discount section starts  */
 .discount-section {
+  /* margin: 120px auto; */
+  display: flex;
+  justify-content: center;
+}
+.discount-section .wrapper {
   width: 60%;
-  margin: 120px auto;
 }
 .discount-section .discount-details {
   text-align: center;
@@ -269,7 +273,6 @@
 
 .gift-section .gift-details h1 {
   font-size: 48px;
-
   font-weight: 900;
 }
 
@@ -278,6 +281,7 @@
   display: flex;
   gap: 24px;
   justify-content: space-between;
+  margin-top: 48px;
 }
 .gift-section .gift-cards img {
   width: 100%;
@@ -292,7 +296,12 @@
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
 }
-
+.sub-sec img {
+  margin-bottom: 40px;
+}
+.sub-sec h1 {
+  margin-bottom: 22px;
+}
 .sub-sec .input-area {
   height: 60px;
   width: 450px;
